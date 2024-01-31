@@ -35,10 +35,14 @@ if command:
         with st.chat_message("BOT"):
             st.write("Hi,How are you?")
             st.session_state.message.append({"role":"BOT","message":"Hi How are you?"})
-    elif "who" in command:
+    elif "who are you" in command:
         with st.chat_message("BOT"):
             st.write("I am Vinoth's AI Assistant")
             st.session_state.message.append({"role":"BOT","message":"I am Vinoth's AI Assistant"})
+   elif "Who are you" in command:
+        with st.chat_message("BOT"):
+            st.write("I am Vinoth's AI Assistant")
+            st.session_state.message.append({"role":"BOT","message":"I am Vinoth's AI Assistant"})         
     
     elif "how you made" in command:
         with st.chat_message("BOT"):
@@ -49,7 +53,12 @@ if command:
         with st.chat_message("BOT"):
             st.write("Good")
             st.session_state.message.append({"role":"BOT","message":"Good"})
-
+            
+    elif "Fine" in command:
+        with st.chat_message("BOT"):
+            st.write("Good")
+            st.session_state.message.append({"role":"BOT","message":"Good"})
+            
     elif "Vishali merin" in command:
         with st.chat_message("BOT"):
             st.write("Ohh Vinoth's Sister!. How are you Sister")
