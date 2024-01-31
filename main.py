@@ -2,7 +2,7 @@ import streamlit as st
 import google.generativeai as genai
 
 
-genai.configure(api_key="AIzaSyDUYj_VWHGLM9tzYoyV_HPrjUui545DXKU")
+genai.configure(api_key="gemini_api")
 def ai(txt):
     
     for m in genai.list_models():
